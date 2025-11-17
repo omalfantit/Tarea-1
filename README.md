@@ -2,9 +2,9 @@
 Tarea 1 del curso de Datos de la gran profesora Soledad Araya
 
 # Ranking de películas de IMDB por género y ganadoras del Oscar
-Instalación y carga de librería de los siguientes paquetes:
-library(tidyverse)
-library(highcharter)
+Instalación y carga de librería de los siguientes paquetes:  
+library(tidyverse)  
+library(highcharter)  
 library(htmlwidgets)
 
 # Limpieza de base de datos
