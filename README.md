@@ -59,9 +59,9 @@ p <- hchart(df3, type = 'line',
 #Créditos personalizados  
   hc_credits(enabled = TRUE, text = 'Por Osvaldo Malfanti basado en Antonela Tamagnin <br> Source: IMDB Website') %>%  
 #Aplica un tema visual  
-#Agrega un estilo preconfigurado (colores suaves, fondo claro).  
+#Agrega un estilo preconfigurado (colores suaves, fondo claro)  
   hc_add_theme(hc_theme_gridlight())  
 p  
-#Guarda el gráfico como html
-#Esto genera un archivo HTML completamente interactivo, independiente (puede abrirse en cualquier navegador).
-saveWidget(widget = p, file = 'plot.html')
+#Guarda el gráfico como html  
+#Esto genera un archivo HTML completamente interactivo, independiente (puede abrirse en cualquier navegador)  
+saveWidget(widget = p, file = 'plot.html')  
